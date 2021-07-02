@@ -36,8 +36,8 @@
     <!-- SECTION 1 BLANCHE  EN SAVOIR PLUS-->
     <div class="section">
         <h2>En savoir plus</h2>
-        <img class="col40" src="ressources/cover.jpg">
-        <div class="col60 float-right" style="padding-left: 15px;">
+        <img class="col_contenu" src="ressources/cover.jpg">
+        <div class="col_contenu float-right">
             <div class="texte_avec_trait_border_vertical">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit <br><br>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit
@@ -48,16 +48,36 @@
 
     </div>
 
-    <!-- SECTION 2 GRISE  PORTFOLIO-->
+    <!-- SECTION 2 GRISE  PORTFOLIO avec TABLE-->
     <div class="section section_bas">
         <h2>Portfolio</h2>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos veritatis nulla eaque. Perspiciatis facilis accusamus sunt dignissimos pariatur laudantium inventore deserunt reiciendis eveniet itaque aspernatur ratione voluptatum ducimus quidem maxime, totam dolor omnis sit error? Asperiores dolore suscipit atque illum.
+        <!-- PROJET 1 -->
+        <table class="col-portfolio" style="display:inline-block">
+            <tr>
+                <td><div class="barre_verticale"></div></td>
+                <td style="width:100%"><a href="portfolio-restau.html"><img style="width:100%" src="ressources/project1small.jpg"></a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="center"><a href="portfolio-restau.html">Le projet 1</a></td>
+            </tr>
+        </table>
+
+        <!-- PROJET 2 -->
+        <table class="float-right col-portfolio">
+            <tr>
+                <td><div class="barre_verticale"></div></td>
+                <td><a href="portfolio-appli-mobile.html"><img style="width:100%;" src="ressources/project2small.jpg"></a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="center"><a href="portfolio-appli-mobile.html">Le projet 2</a></td>
+            </tr>
+        </table>
     </div>
 
-    <!-- SECTION 2 BLANCHE -->
-    <div class="section">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum fuga sit officiis quaerat adipisci facilis tempore asperiores molestias quia maiores! In et non possimus labore, eos at impedit mollitia reiciendis quae officiis, nisi explicabo officia iste quas, architecto voluptatem est.
-    </div>
+    <!-- SECTION FRAME -->
+    <iframe src="contact-frame.html" scrolling="no"></iframe>
 
 </body>
 </html>
