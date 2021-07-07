@@ -1,3 +1,5 @@
 # site_perso
 
+EN COURS DE CREATION, CERTAINS ELEMENTS SONT LA JUSTE POUR ETRE LA ET SERONT MODIFIE PAR LA SUITE
+
 Site perso, only HTML CSS, responsive en media quey
