@@ -1,3 +1,3 @@
 # site_perso
 
-todo : portfolio : probleme image dimension full screen
+Site perso, only HTML CSS, responsive en media quey
